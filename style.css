@@ -1,0 +1,35 @@
+.img{
+    width:28%;
+}
+hr{
+    width:20%;
+    border: 2px solid white;
+}
+.col-xs-12{
+    text-align: center;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.icona{
+    position: relative;
+}
+.icona i{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #00c191;
+}
+.jumbotron{
+    background-color: #00c191;
+}
+.col-xs-12 h1,p{
+    color:white;
+}
+.icona i{
+    color:white;
+}
+.navbar-default{
+    background-color: #3a3657;
+    padding: 15px;
+}
