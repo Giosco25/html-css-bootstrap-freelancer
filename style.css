@@ -18,7 +18,9 @@ hr{
     position: absolute;
     left:50%;
     transform: translate(-50%,-50%);
-    background-color: #00c191;
+    
+    padding-bottom: 50px;
+    font-size: 25px;
 }
 .jumbotron{
     background-color: #00c191;
@@ -32,4 +34,17 @@ hr{
 .navbar-default{
     background-color: #3a3657;
     padding: 15px;
+}
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+    color:white;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
+.navbar-default .navbar-brand {
+    color: white;
 }
