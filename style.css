@@ -5,35 +5,29 @@ hr{
     width:20%;
     border: 2px solid white;
 }
-.col-xs-12{
-    text-align: center;
-}
+
 .navbar{
     margin-bottom: 0;
 }
-.icona{
+.separatore{
     position: relative;
 }
-.icona i{
-    position: absolute;
-    left:50%;
-    transform: translate(-50%,-50%);
-    
-    padding-bottom: 50px;
-    font-size: 25px;
-}
+
 .jumbotron{
-    background-color: #00c191;
+    background-color: #1bbc9b;
+    margin-bottom: 0;
 }
-.col-xs-12 h1,p{
+.container h1{
     color:white;
+    font-weight: bold;
 }
-.icona i{
+.separatore i{
     color:white;
 }
 .navbar-default{
-    background-color: #3a3657;
+    background-color: #2D3E50;
     padding: 15px;
+    font-weight: bold;
 }
 .navbar-default .navbar-nav>.active>a{
     background-color: transparent;
@@ -47,4 +41,101 @@ hr{
 }
 .navbar-default .navbar-brand {
     color: white;
+}
+.separatore{
+    width: 250px;
+    position: relative;
+
+}
+.separatore::before,
+.separatore::after{
+    content: '';
+    width: calc((100% - 50px) / 2);
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.separatore::before {
+    left:0;
+}
+.separatore::after{
+    right:0;
+}
+.separatore i{
+    font-size: 25px;
+}
+.container p{
+    color:white;
+}
+.features{
+    background-color: blue;
+}
+.column{
+    background-color: blue;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.column{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.column::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.blocchi{
+    height: 200px;
+    background-color: black;
+    border:1px solid white;
+}
+.features h2 {
+    color:white;
+    margin: 0;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.separatore-due{
+    width: 250px;
+    position: relative;
+
+}
+.separatore-due::before,
+.separatore-due::after{
+    content: '';
+    width: calc((100% - 50px) / 2);
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.separatore-due::before {
+    left:0;
+}
+.separatore-due::after{
+    right:0;
+}
+.separatore-due i{
+    font-size: 25px;
+}
+.features i{
+    color: white;
+}
+.prima{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 76%;
+    height: auto;
+
 }
