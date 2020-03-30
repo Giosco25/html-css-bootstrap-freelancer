@@ -92,9 +92,10 @@ hr{
     content: '';
 }
 .blocchi{
-    height: 200px;
+    height: auto;
     background-color: black;
     border:1px solid white;
+    margin-bottom: 20px;
 }
 .features h2 {
     color:white;
@@ -131,11 +132,9 @@ hr{
     color: white;
 }
 .prima{
-    height: 100%;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 76%;
     height: auto;
 
 }
