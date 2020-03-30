@@ -41,6 +41,7 @@ hr{
 }
 .navbar-default .navbar-brand {
     color: white;
+    font-size: 25px;
 }
 .separatore{
     width: 250px;
@@ -129,7 +130,7 @@ hr{
 .features i{
     color: #2D3E50;
 }
-.prima{
+.immagini{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
