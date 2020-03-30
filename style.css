@@ -70,10 +70,10 @@ hr{
     color:white;
 }
 .features{
-    background-color: blue;
+    background-color: white;
 }
 .column{
-    background-color: blue;
+    background-color: white;
 }
 *{
     margin:0;
@@ -93,12 +93,10 @@ hr{
 }
 .blocchi{
     height: auto;
-    background-color: black;
-    border:1px solid white;
     margin-bottom: 20px;
 }
 .features h2 {
-    color:white;
+    color:#2D3E50;
     margin: 0;
     font-weight: bold;
     padding-top: 35px;
@@ -114,7 +112,7 @@ hr{
     content: '';
     width: calc((100% - 50px) / 2);
     height: 3px;
-    background-color: white;
+    background-color: #2D3E50;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -129,7 +127,7 @@ hr{
     font-size: 25px;
 }
 .features i{
-    color: white;
+    color: #2D3E50;
 }
 .prima{
     width: 100%;
